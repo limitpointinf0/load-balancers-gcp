@@ -22,7 +22,7 @@ terraform apply
 ## How to Remove the Project
 - Step 1: Delete the load balancer created along with all backend services and healthchecks
 
--Step 2: Run the following command to remove all instances, instance groups, firewall configurations, etc.
+- Step 2: Run the following command to remove all instances, instance groups, firewall configurations, etc.
 ```bash
 terraform destroy
 ```  
