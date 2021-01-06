@@ -13,7 +13,7 @@ terraform apply
     - Backend Service:
         - Backend Type: instance group
         - Add all of the instance groups to the backend
-        - Healthcheck: check TCP
+        - Healthcheck: check TCP port 80
     - Frontend Service:
         - HTTP
     
