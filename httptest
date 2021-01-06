@@ -1,0 +1,6 @@
+#!/bin/bash
+while :
+do
+    curl $1
+    sleep 1
+done
