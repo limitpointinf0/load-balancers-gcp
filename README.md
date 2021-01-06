@@ -17,7 +17,7 @@ terraform apply
     - Frontend Service:
         - HTTP
     
-- Step 3: You may at this point run a test by pinging the public IP of the load balancer from the test VM
+- Step 3: You may at this point run a test by sending http traffic to the public IP of the load balancer from the test VM
 
 ## License
 
