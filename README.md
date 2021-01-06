@@ -24,9 +24,7 @@ terraform apply
 
 -Step 2: Run the following command to remove all instances, instance groups, firewall configurations, etc.
 ```bash
-terraform init
-terraform plan
-terraform apply
+terraform destroy
 ```  
 
 ## License
