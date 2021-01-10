@@ -114,6 +114,8 @@ resource "google_compute_instance" "test" {
         ssh-keys = "chris:${file("~/.ssh/id_rsa.pub")}"
     }
 
+    metadata_startup_script = "${file("siege.sh")}"
+
     network_interface {
         network = var.net
 
